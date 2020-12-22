@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "acme",
+      "type": "com.wjw.model.AcmeProperties",
+      "sourceType": "com.wjw.model.AcmeProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "acme.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.wjw.model.AcmeProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "acme.port",
+      "type": "java.lang.String",
+      "sourceType": "com.wjw.model.AcmeProperties"
+    },
+    {
+      "name": "acme.remote-address",
+      "type": "java.net.InetAddress",
+      "sourceType": "com.wjw.model.AcmeProperties"
+    }
+  ],
+  "hints": []
+}

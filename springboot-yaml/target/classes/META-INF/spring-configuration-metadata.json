@@ -1,0 +1,58 @@
+{
+  "groups": [
+    {
+      "name": "yaml.level",
+      "type": "com.wjw.model.YamlModel",
+      "sourceType": "com.wjw.model.YamlModel"
+    }
+  ],
+  "properties": [
+    {
+      "name": "yaml.level.birth",
+      "type": "java.util.Date",
+      "sourceType": "com.wjw.model.YamlModel"
+    },
+    {
+      "name": "yaml.level.dnum",
+      "type": "java.lang.Double",
+      "sourceType": "com.wjw.model.YamlModel"
+    },
+    {
+      "name": "yaml.level.list",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.wjw.model.YamlModel"
+    },
+    {
+      "name": "yaml.level.map",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.wjw.model.YamlModel"
+    },
+    {
+      "name": "yaml.level.num",
+      "type": "java.lang.Integer",
+      "sourceType": "com.wjw.model.YamlModel",
+      "defaultValue": 0
+    },
+    {
+      "name": "yaml.level.set",
+      "type": "java.util.Set<java.lang.Integer>",
+      "sourceType": "com.wjw.model.YamlModel"
+    },
+    {
+      "name": "yaml.level.special-str",
+      "type": "java.lang.String",
+      "sourceType": "com.wjw.model.YamlModel"
+    },
+    {
+      "name": "yaml.level.str",
+      "type": "java.lang.String",
+      "sourceType": "com.wjw.model.YamlModel"
+    },
+    {
+      "name": "yaml.level.users",
+      "type": "java.util.List<com.wjw.model.User>",
+      "sourceType": "com.wjw.model.YamlModel"
+    }
+  ],
+  "hints": []
+}

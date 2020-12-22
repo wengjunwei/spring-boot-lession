@@ -1,0 +1,4 @@
+acme:
+  enabled: true
+  remote-address: 191.11.11.3
+  host: ${acme.remote-address}:8080

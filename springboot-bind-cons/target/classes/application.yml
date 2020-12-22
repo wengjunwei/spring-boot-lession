@@ -1,0 +1,16 @@
+acme:
+  enabled: true
+  remote-address: 191.11.11.1
+  security:
+    roles: [明心,过去]
+    password: 123
+    username: 我的
+  my-person:
+    person:
+      first-name: 嗡嗡
+      age: 23
+      email: 714141549@qq.com
+      school:
+        name: textschool
+
+

@@ -1,0 +1,90 @@
+{
+  "groups": [
+    {
+      "name": "acme",
+      "type": "com.wjw.model.AcmeProperties",
+      "sourceType": "com.wjw.model.AcmeProperties"
+    },
+    {
+      "name": "acme",
+      "type": "com.wjw.model.AnotherProperties",
+      "sourceType": "com.wjw.service.MyService",
+      "sourceMethod": "getAnotherProperties()"
+    },
+    {
+      "name": "acme.my-person.person",
+      "type": "com.wjw.model.OwnerProperties",
+      "sourceType": "com.wjw.model.OwnerProperties"
+    },
+    {
+      "name": "acme.my-person.person.school",
+      "type": "com.wjw.model.OwnerProperties$School",
+      "sourceType": "com.wjw.model.OwnerProperties"
+    },
+    {
+      "name": "acme.security",
+      "type": "com.wjw.model.AcmeProperties$Security",
+      "sourceType": "com.wjw.model.AcmeProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "acme.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.wjw.model.AcmeProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "acme.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.wjw.model.AnotherProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "acme.my-person.person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.wjw.model.OwnerProperties"
+    },
+    {
+      "name": "acme.my-person.person.email",
+      "type": "java.lang.String",
+      "sourceType": "com.wjw.model.OwnerProperties"
+    },
+    {
+      "name": "acme.my-person.person.first-name",
+      "type": "java.lang.String",
+      "sourceType": "com.wjw.model.OwnerProperties"
+    },
+    {
+      "name": "acme.my-person.person.school.name",
+      "type": "java.lang.String",
+      "sourceType": "com.wjw.model.OwnerProperties$School"
+    },
+    {
+      "name": "acme.remote-address",
+      "type": "java.net.InetAddress",
+      "sourceType": "com.wjw.model.AcmeProperties"
+    },
+    {
+      "name": "acme.remote-address",
+      "type": "java.net.InetAddress",
+      "sourceType": "com.wjw.model.AnotherProperties"
+    },
+    {
+      "name": "acme.security.password",
+      "type": "java.lang.String",
+      "sourceType": "com.wjw.model.AcmeProperties$Security"
+    },
+    {
+      "name": "acme.security.roles",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.wjw.model.AcmeProperties$Security"
+    },
+    {
+      "name": "acme.security.username",
+      "type": "java.lang.String",
+      "sourceType": "com.wjw.model.AcmeProperties$Security"
+    }
+  ],
+  "hints": []
+}

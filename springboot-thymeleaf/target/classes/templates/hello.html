@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p th:text="${hello}"></p>
+    <p th:text="#{txjava.name}"></p>
+    <p th:text="${'姓名：'+user.name+'  年龄:'+user.age}"></p>
+    <span th:text="${#locale.country}"></span><br>
+    <span th:text="${#dates.format(date, 'dd/MMM/yyyy HH:mm')}"></span>
+    <hr>
+    <div th:object="${session.user}">
+        <p>Name: <span th:text="*{name}">name</span>.</p>
+        <p>Surname: <span th:text="*{age}">age</span>.</p>
+        <p>Nationality: <span th:text="*{role.name}">Saturn</span>.</p>
+    </div>
+</body>
+</html>
